@@ -66,3 +66,6 @@ This approach focuses on developing and deploying the core functionalities neede
 - Finalize Documents: Team Agreement, Project Outline, README.
 - Understand Project Lifecycle Guide.
 - Discuss future meeting plans with Project Manager.
+
+## Link to Other Documents
+- [Main Google Drive](https://drive.google.com/drive/folders/1APLvlvhj40xC78EXn6Ot0LNZRJ-G3iN9)
