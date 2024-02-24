@@ -34,6 +34,16 @@ Spare-it focuses on leveraging technology to optimize waste management practices
 - **Summary:** This study explores the effectiveness of deep learning in image recognition compared to traditional machine learning methods like Support Vector Machines (SVM), focusing on the natural handling of two-dimensional image data by deep learning technologies. It highlights deep learning's superiority in feature extraction and recognition accuracy through a case study on handwritten digit recognition. The findings underscore deep learning's potential for improving automatic image recognition processes, offering insights into its advantages over conventional methods.
 - **Link:** [IOP Science](https://iopscience.iop.org/article/10.1088/1742-6596/1314/1/012148/meta)
 
+### 5. Waste Detection System Based on Data Augmentation and YOLO_EC
+
+- **Summary:** The study focuses on improving waste detection using a novel approach. The authors propose a modified version of the YOLO model, which is enhanced through advanced data augmentation techniques. This approach aims to address the challenges of detecting various types of waste, especially in complex environments with obscured or small objects. The study demonstrates the effectiveness of YOLO_EC in accurately identifying and classifying waste materials. The results indicate that the model, with its improved data processing and learning capabilities, offers a significant advancement over traditional methods, potentially leading to more efficient and effective waste management solutions.
+- **Link:** [MDPI](https://www.mdpi.com/1424-8220/23/7/3646)
+
+### 6. Waste Classification for Sustainable Development Using Image Recognition with Deep Learning Neural Network Models
+
+- **Summary:** The study focuses on the use of deep learning, specifically the EfficientNet-B0 model, to classify different types of waste. This model, known for its accuracy and efficiency, is adapted to better suit specific local waste characteristics, enhancing its performance in different regions. Such customization makes the model nearly as accurate as its more complex counterparts, like EfficientNet-B3, but with greater efficiency and less computational demand. This model offers a foundation in selecting and tuning a model that is not only effective in accurate classification but also efficient in processing, adaptable to regional variations, and capable of future enhancements for more detailed waste categorization and integration into broader smart city initiatives.
+- **Link:** [MDPI](https://www.mdpi.com/2071-1050/14/12/7222)
+
 ## Open Source
 
 ### YOLOv8
@@ -48,3 +58,9 @@ Spare-it focuses on leveraging technology to optimize waste management practices
 
 - **About:** This GitHub repository offers a collection of resources and tools for applying deep learning in image recognition tasks. It includes implementations for various deep learning models, making it a valuable asset for researchers and developers working on image recognition, including plant identification, disease detection, and more.
 - **Link:** [GitHub - Deep Learning for Image Recognition](https://github.com/SanketD92/Deep-Learning-For-Image-Recognition)
+
+### Waste Classification using ResNet152
+- **Link:** [GitHub](https://github.com/VIJAY-GADRE/Waste_Classification_using_ResNet152)
+
+### Waste Classification using CNN
+- **Link:** [GitHub](https://github.com/aniass/Waste-Classification)
