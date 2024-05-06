@@ -1,0 +1,25 @@
+path: .
+train: train/images
+val: val/images
+
+names:
+  0: Metal Can
+  1: Paper Towel/Napkins/Tissue
+  2: Plastic Drink Bottle
+  3: Compostable Fiber Ware
+  4: Paper Cup
+  5: Clear Plastic Cup
+  6: Fruits And Veggies
+  7: Empty Paper Bag
+  8: Office Paper
+  9: Snack or Candy Bag or Wrapper
+  10: Clean Cardboard
+  11: Black Plastic
+  12: Clean Paper Plate
+  13: Filled Bag
+  14: Shelf Stable Carton
+  15: Glass Bottles
+  16: Shredded Paper
+  17: Empty Plastic Bag
+  18: Cardboard Coffee Cup Sleeve
+  19: Aluminum Foil
