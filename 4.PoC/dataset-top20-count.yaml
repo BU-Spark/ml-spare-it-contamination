@@ -1,0 +1,25 @@
+path: .
+train: train/images
+val: val/images
+
+names:
+  0: Shelf Stable Carton
+  1: Clear Plastic Cup
+  2: Compostable Fiber Ware
+  3: Other Clean Plastics (rigid)
+  4: Straws
+  5: Filled Bag
+  6: Empty Paper Bag
+  7: Other Food or Mixed Food
+  8: Paper Cup
+  9: Plastic Drink Bottle
+  10: Food Soiled Paper
+  11: Plastic Lid except black
+  12: Clean Cardboard
+  13: Empty Plastic Bag
+  14: Fruits And Veggies
+  15: Snack or Candy Bag or Wrapper 
+  16: Metal Can
+  17: Other Clean Paper
+  18: Office Paper
+  19: Paper Towel/Napkins/Tissue
