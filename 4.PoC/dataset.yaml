@@ -1,0 +1,105 @@
+path: .
+train: train/images
+val: val/images
+
+names:
+  0: Paper Cup
+  1: Snack or Candy Bag or Wrapper 
+  2: Wipe
+  3: Wax Paper
+  4: Latex Gloves
+  5: Juice or Other Pouch
+  6: Diaper
+  7: Padded Envelope (mixed material))
+  8: Blister Pack
+  9: Pens and Pencils
+  10: Miscellaneous Office Supplies
+  11: Facemask and Other PPE
+  12: Shelf Stable Carton
+  13: Soiled Plastic
+  14: Soiled Metal
+  15: Soiled Glass
+  16: Ceramics
+  17: Unclassifiable
+  18: Filled Bag
+  19: Coffee Pod
+  20: Other Trash
+  21: Flexible container lid / seal
+  22: Snack Food Canister
+  23: Hard Cover Books
+  24: Compostable Fiber Ware
+  25: Compostable Cutlery
+  26: Compostable Plastic Cups
+  27: Compostable Paper Cups
+  28: Paper Towel/Napkins/Tissue
+  29: Wooden Coffee Stirrer or Chopstick
+  30: Soiled Cardboard Box
+  31: Compostable Plastic Lid
+  32: Food Soiled Paper
+  33: Other compostable material
+  34: Sandwich paper wrapper
+  35: Plastic strapping
+  36: Batteries
+  37: Cables
+  38: Computers
+  39: Monitors
+  40: Toner and Ink Cartridges
+  41: Miscellaneous Electronics 
+  42: LED Lightbulb
+  43: Meat and Fish
+  44: Bones and Shells
+  45: Cheese and Other Fats
+  46: Fruits And Veggies
+  47: Other Food or Mixed Food
+  48: Breads
+  49: Grains
+  50: Tea Bags
+  51: Coffee Grounds
+  52: Egg Shell
+  53: Glass Bottles
+  54: Glass Jars
+  55: Broken Glass
+  56: Other Clean Glass
+  57: Drinking glass or glass ovenware
+  58: Metal Can
+  59: Aluminum Foil
+  60: Aluminum Catering Tray
+  61: Other Clean Metal
+  62: Aerosol Can
+  63: Metallic Bottle Cap or Lid
+  64: Metal Strapping
+  65: Liquids
+  66: Leaves, Flowers, Grass Clippings
+  67: Office Paper
+  68: Shredded Paper
+  69: Clean Cardboard
+  70: Refrigerated Beverage Carton
+  71: Magazines Newspaper
+  72: Receipts and Thermal Paper
+  73: Empty Paper Bag
+  74: Cardboard Coffee Cup Sleeve
+  75: Clean Paper Plate
+  76: Colored Memo Note
+  77: Office Folder
+  78: Paper Roll
+  79: Wrapping Paper
+  80: Other Clean Paper
+  81: Plastic Drink Bottle
+  82: Plastic Milk Jug or Personal Care Bottle
+  83: Empty Plastic Bag
+  84: Yogurt Tub or Container
+  85: Expanded Polystyrene (styrofoam)
+  86: Other Clean Plastics (rigid)
+  87: Straws
+  88: Clear Clamshell Container
+  89: Plastic Cutlery
+  90: Plastic Lid except black
+  91: Plastic Coffee Stirrer
+  92: Clear Plastic Cup
+  93: Colored Plastic Cup
+  94: Black Plastic
+  95: Plastic Wrap
+  96: Bubble Wrap
+  97: Incandescent Lightbulbs
+  98: CFL Lightbulbs
+  99: Textiles and Clothes
