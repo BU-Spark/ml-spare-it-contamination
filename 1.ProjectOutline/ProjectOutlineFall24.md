@@ -1,6 +1,6 @@
 # Technical Project Document Template
 
-## *Tia Hannah, Arjun Chandra , Heng Chang , Devon Spielman-Solheim  2024-Sept-24 vx.x.x-dev*
+## *Tia Hannah, Arjun Chandra , Heng Chang , Devon Solheim  2024-Sept-24 vx.x.x-dev*
 
 ## Overview
 
