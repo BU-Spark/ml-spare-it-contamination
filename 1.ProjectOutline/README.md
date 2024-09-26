@@ -21,17 +21,16 @@ The project focuses on creating a machine learning model capable of predicting c
 
 
 ### C. Checklist for project completion
+
+- [x]  Label Data Optimization and External Dataset Analysis:  Refine labeled data by splitting complex classes and find external datasets and analyze them for better classification.
  
-Label Data Optimization and External Dataset Analysis:  
-- [x] Refine labeled data by splitting complex classes and find external datasets and analyze them for better classification.
-Data Pipeline Enhancement:  
-- [x] Create a scalable and optimized live data pipeline to incorporate external datasets and live data.
-AI Image Generation Exploration:  
-- [x] Implement advanced image AI models to generate high-quality synthetic images for testing and for easier classification of the real images (Flux 1, SAM)
-ML Pipeline Enhancements:  
-- [x] Research and use open-source tools to improve precision and mAP values in segmentation models, focusing on the accuracy of classification.
-Front-End Enhancement:
-- [x] Host and Update the front-end platform to both be more user-friendly and  reflect the improved data labeling and AI image generation features. 
+- [x] Data Pipeline Enhancement: Create a scalable and optimized live data pipeline to incorporate external datasets and live data.
+
+- [x] AI Image Generation Exploration: Implement advanced image AI models to generate high-quality synthetic images for testing and for easier classification of the real images (Flux 1, SAM)
+
+- [x] ML Pipeline Enhancements: Research and use open-source tools to improve precision and mAP values in segmentation models, focusing on the accuracy of classification.
+
+- [x] Front-End Enhancement: Host and Update the front-end platform to both be more user-friendly and  reflect the improved data labeling and AI image generation features. 
 
 
 ### D. Outline a path to operationalization.
@@ -48,10 +47,10 @@ This approach focuses on developing and deploying the core functionalities neede
 
 
 ## Resources
-[YOLOv8 by Ultralytics]([url](https://docs.ultralytics.com/tasks/segment/))
-[Segment Anything (SAM) by Meta]([url](https://segment-anything.com/))
-[Black Forest Labs (Flux.1)]([url](https://huggingface.co/black-forest-labs))
-[This is the how images are classified and labeled]([url](https://www.google.com/url?q=https://airtable.com/appfD0HATg3Ii35Oo/shrN7ywJvqfJV3ROE/tblEaPEKrbEVOeHic&sa=D&source=docs&ust=1727381391761009&usg=AOvVaw2CL2OQTQsYEj4lrWrI1g-m))
+- [YOLOv8 by Ultralytics]([url](https://docs.ultralytics.com/tasks/segment/))
+- [Segment Anything (SAM) by Meta]([url](https://segment-anything.com/))
+- [Black Forest Labs (Flux.1)]([url](https://huggingface.co/black-forest-labs))
+- [This is the how images are classified and labeled]([url](https://www.google.com/url?q=https://airtable.com/appfD0HATg3Ii35Oo/shrN7ywJvqfJV3ROE/tblEaPEKrbEVOeHic&sa=D&source=docs&ust=1727381391761009&usg=AOvVaw2CL2OQTQsYEj4lrWrI1g-m))
 
 
 ### Data Sets
