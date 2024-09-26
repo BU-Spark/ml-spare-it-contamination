@@ -28,7 +28,7 @@ The project focuses on creating a machine learning model capable of predicting c
 
 - [x] AI Image Generation Exploration: Implement advanced image AI models to generate high-quality synthetic images for testing and for easier classification of the real images (Flux 1, SAM)
 
-- [x] ML Pipeline Enhancements: Research and use open-source tools to improve precision and mAP values in segmentation models, focusing on the accuracy of classification.
+- [x] ML Pipeline Enhancements: Research and use open-source tools to improve precision and mAP values of the existing object detection model, focusing on the accuracy of classification.
 
 - [x] Front-End Enhancement: Host and Update the front-end platform to both be more user-friendly and  reflect the improved data labeling and AI image generation features. 
 
@@ -56,6 +56,6 @@ This approach focuses on developing and deploying the core functionalities neede
 - https://drive.google.com/drive/u/1/folders/1rGmiwSvCddAuQlnnxbJiIE8sJdiSvIY3
 - Processed 4,640 images and labels from a total dataset of 29,000, using a taxonomy of 102 specific objects for detailed waste classification.
 - Researched External sources/datasets
-- Synthetic/ AI-generated Images
+- Synthetic/AI-generated Images
 
 ## Weekly Meeting Updates
