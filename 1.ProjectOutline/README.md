@@ -30,12 +30,12 @@ The project focuses on creating a machine learning model capable of predicting c
 
 - [x] ML Pipeline Enhancements: Research and use open-source tools to improve precision and mAP values of the existing object detection model, focusing on the accuracy of classification.
 
-- [x] Front-End Enhancement: Host and Update the front-end platform to both be more user-friendly and  reflect the improved data labeling and AI image generation features. 
+- [x] Front-End Enhancement: Host and update the front-end platform to both be more user-friendly and reflect the improved data labeling and AI image generation features. 
 
 
 ### D. Outline a path to operationalization.
 
-1. **Improve the AI Model:** Improve the previous machine learning model to more accuratelyidentify contamination and missed recycling opportunities from images of waste bins.
+1. **Improve the AI Model:** Improve the previous machine learning model to more accurately identify contamination and missed recycling opportunities from images of waste bins.
 2. **Refine the User Interface:** Refine the interface where users can upload images of waste bins for analysis.
 3. **Deploy the Model:** Host the AI model on a cloud platform to analyze images uploaded by users in real time.
 4. **Provide Feedback:** Automatically generate and display feedback on waste sorting to the user based on the AI analysis.
