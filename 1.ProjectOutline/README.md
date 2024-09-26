@@ -5,17 +5,20 @@
 ## Overview
 
 Spare-it aims to empower businesses, office owners, and universities with the ability to monitor and reduce various types of workspace waste effectively. The project's core objective is to develop a machine learning model that can autonomously identify contamination and missed recycling opportunities by analyzing images of waste bins. This technology seeks to enhance sustainability efforts by providing actionable insights into waste management practices, thus facilitating a more environmentally friendly and efficient approach to handling waste and recyclables.
-###A. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI.
+
+### A. Provide a solution in terms of human actions to confirm if the task is within the scope of automation through AI.
+
 Human actions involved in identifying contamination and missed opportunities in recycling include:
 Visual Inspection: A person would examine images of waste bins to identify recyclable materials incorrectly disposed of as general waste or contaminants within the recycling stream.
 Classification: Based on the visual inspection, the person categorizes each image as either 'Contaminated' or a 'Missed Opportunity' for recycling.
 Data Recording: The findings from the inspection and classification are then recorded, potentially in a database, for further analysis or action.
 This process aligns well with automation through AI, as machine learning models can be trained to replicate these human actions with high efficiency and scalability. AI can continuously analyze large volumes of images, providing real-time insights and recommendations for improving waste sorting practices.
-###B. Problem Statement:
+
+### B. Problem Statement:
 The project focuses on creating a machine learning model capable of predicting contamination levels and identifying missed opportunities for recycling through the analysis of waste bin images. This involves distinguishing between general waste, recyclables, electronics, and other waste types to improve waste sorting and reduce contamination. The challenge lies in accurately classifying images into categories of 'Contaminated' or 'Missed Opportunity' based on the presence of specific objects and materials that should have been recycled or disposed of differently. This can be formulated as a machine learning problem in different ways, but based on the previous semesters’ work, it is being treated as an object detection problem which involves both localization and classification. 
 
 
-###C. Checklist for project completion
+### C. Checklist for project completion
  
 Label Data Optimization and External Dataset Analysis:  
 Refine labeled data by splitting complex classes and find external datasets and analyze them for better classification.
@@ -23,16 +26,13 @@ Data Pipeline Enhancement:
 Create a scalable and optimized live data pipeline to incorporate external datasets and live data.
 AI Image Generation Exploration:  
 Implement advanced image AI models to generate high-quality synthetic images for testing and for easier classification of the real images (Flux 1, SAM)
-
 ML Pipeline Enhancements:  
-  Research and use open-source tools to improve precision and mAP values in segmentation models, focusing on the accuracy of classification.
+Research and use open-source tools to improve precision and mAP values in segmentation models, focusing on the accuracy of classification.
 Front-End Enhancement:
 Host and Update the front-end platform to both be more user-friendly and  reflect the improved data labeling and AI image generation features. 
 
 
 ### D. Outline a path to operationalization.
-
-*Data Science Projects should have an operationalized end point in mind from the onset. Briefly describe how you see the tool produced by this project being used by the end user beyond a jupyter notebook or proof of concept. If possible, be specific and call out the relevant technologies that will be useful when making this available to the stakeholders as a final deliverable.*
 
 Improve the AI Model: Improve the previous machine learning model to more accuratelyidentify contamination and missed recycling opportunities from images of waste bins.
 Refine the User Interface: Refine the interface where users can upload images of waste bins for analysis.
@@ -41,7 +41,6 @@ Provide Feedback: Automatically generate and display feedback on waste sorting t
 Collect Data: Use the data from user uploads to continuously improve the AI model's accuracy.
 Launch a Pilot Program: Test the system with a limited user group to gather feedback and make necessary adjustments.
 Official Release: Roll out the application for wider use with full functionality and support.
-
 
 This approach focuses on developing and deploying the core functionalities needed to bring the Spare-it project to its users, with an emphasis on simplicity and effectiveness.
 
