@@ -1,4 +1,4 @@
-# Technical Project Document Template
+` # Technical Project Document Template
 
 ## Tia Hannah, Devon Solheim, Heng Chang, Arjun Chandra, 2024-09-26 v2.0.0-dev
 
@@ -47,11 +47,10 @@ This approach focuses on developing and deploying the core functionalities neede
 
 
 ## Resources
-- [YOLOv8 by Ultralytics]([https://docs.ultralytics.com/tasks/segment/])
-- [Segment Anything (SAM) by Meta][https://segment-anything.com/]
-- [Black Forest Labs (Flux.1)][https://huggingface.co/black-forest-labs]
-- [This is the how images are classified and labeled][https://www.google.com/url?q=https://airtable.com/appfD0HATg3Ii35Oo/shrN7ywJvqfJV3ROE/tblEaPEKrbEVOeHic&sa=D&source=docs&ust=1727381391761009&usg=AOvVaw2CL2OQTQsYEj4lrWrI1g-m]
-
+- [YOLOv8 by Ultralytics](https://docs.ultralytics.com/tasks/segment/)
+- [Segment Anything (SAM) by Meta](https://segment-anything.com/)
+- [Black Forest Labs (Flux.1)](https://huggingface.co/black-forest-labs)
+- [This is how images are classified and labeled](https://www.google.com/url?q=https://airtable.com/appfD0HATg3Ii35Oo/shrN7ywJvqfJV3ROE/tblEaPEKrbEVOeHic&sa=D&source=docs&ust=1727381391761009&usg=AOvVaw2CL2OQTQsYEj4lrWrI1g-m)
 
 ### Data Sets
 - https://drive.google.com/drive/u/1/folders/1rGmiwSvCddAuQlnnxbJiIE8sJdiSvIY3
