@@ -1,4 +1,4 @@
-` # Technical Project Document Template
+# Technical Project Document Template
 
 ## Tia Hannah, Devon Solheim, Heng Chang, Arjun Chandra, 2024-09-26 v2.0.0-dev
 
