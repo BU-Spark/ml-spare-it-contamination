@@ -47,16 +47,16 @@ This approach focuses on developing and deploying the core functionalities neede
 
 
 ## Resources
-- [YOLOv8 by Ultralytics]([url](https://docs.ultralytics.com/tasks/segment/))
-- [Segment Anything (SAM) by Meta]([url](https://segment-anything.com/))
-- [Black Forest Labs (Flux.1)]([url](https://huggingface.co/black-forest-labs))
-- [This is the how images are classified and labeled]([url](https://www.google.com/url?q=https://airtable.com/appfD0HATg3Ii35Oo/shrN7ywJvqfJV3ROE/tblEaPEKrbEVOeHic&sa=D&source=docs&ust=1727381391761009&usg=AOvVaw2CL2OQTQsYEj4lrWrI1g-m))
+- [YOLOv8 by Ultralytics]([https://docs.ultralytics.com/tasks/segment/])
+- [Segment Anything (SAM) by Meta][https://segment-anything.com/]
+- [Black Forest Labs (Flux.1)][https://huggingface.co/black-forest-labs]
+- [This is the how images are classified and labeled][https://www.google.com/url?q=https://airtable.com/appfD0HATg3Ii35Oo/shrN7ywJvqfJV3ROE/tblEaPEKrbEVOeHic&sa=D&source=docs&ust=1727381391761009&usg=AOvVaw2CL2OQTQsYEj4lrWrI1g-m]
 
 
 ### Data Sets
-https://drive.google.com/drive/u/1/folders/1rGmiwSvCddAuQlnnxbJiIE8sJdiSvIY3
-Processed 4,640 images and labels from a total dataset of 29,000, using a taxonomy of 102 specific objects for detailed waste classification.
-Researched External sources/datasets
-Synthetic/ AI-generated Images
+- https://drive.google.com/drive/u/1/folders/1rGmiwSvCddAuQlnnxbJiIE8sJdiSvIY3
+- Processed 4,640 images and labels from a total dataset of 29,000, using a taxonomy of 102 specific objects for detailed waste classification.
+- Researched External sources/datasets
+- Synthetic/ AI-generated Images
 
 ## Weekly Meeting Updates
