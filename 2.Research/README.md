@@ -70,7 +70,7 @@ Spare-it focuses on leveraging technology to optimize waste management practices
 
 ### Datasets 
 
-### Waste Datasets
+#### Waste Datasets
 - **About:** This is a GitHub repository which lists datasets that contain any kind of litter, garbage, waste, or trash. It also contains relevation information about each dataset, including the number of classes, subsclasses, images, and annotation type. There are also representative images from each dataset in the Description section. 
 - **Link:** [Waste Datasets](https://github.com/AgaMiko/waste-datasets-review?tab=readme-ov-file)
 
