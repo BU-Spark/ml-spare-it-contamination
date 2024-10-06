@@ -48,7 +48,10 @@ Spare-it focuses on leveraging technology to optimize waste management practices
 - **Summary:** This paper gives a summary of existing methods for data augmentation, such as applying filters (gaussian, sobel, etc.) to images as well as tweaking the saturation or contrast of the images. These techniques could prove useful in improving the training of the model, but the paper proposes its own manner of further improving the efficacy of a dataset. This method is dubbed random local rotations, spinning chunks of images in the aim of reducing overfitting. Considering how the aim of this project is to identify the presence of contamination in an image, not its position within the image, this method could help to improve the model's accuracy.
 - **Link:** [MDPI](https://www.mdpi.com/2313-433X/9/2/46/pdf)
 
+### 7. Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation
 
+- **Summary:** This paper discusses how pasting a labeled image onto another within the training data can be extremely useful in segmentation classification. Given that one method explored in this project in the past has been segmentation, performing the process as described in the paper could lead to a better model with considerably less wrangling of the data we already have. Moreover, the process detailed for copy-paste is relatively simple, with even unintelligent copy-paste transformations leading to significant improvements in model accuracy.
+- **Link:** [MDPI](https://openaccess.thecvf.com/content/CVPR2021/papers/Ghiasi_Simple_Copy-Paste_Is_a_Strong_Data_Augmentation_Method_for_Instance_CVPR_2021_paper.pdf)
 
 
 ## Open Source
