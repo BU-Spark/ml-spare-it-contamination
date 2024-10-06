@@ -43,9 +43,10 @@ Spare-it focuses on leveraging technology to optimize waste management practices
 - **Summary:** This study focuses on improving waste detection using a modified version of the YOLO model, YOLO_EC, which is enhanced through generative data augmentation techniques, specifically DCGAN with an improved objective function. This approach aims to address the challenges of detecting various types of waste, especially in complex environments with obscured or small objects. The study demonstrates the effectiveness of YOLO_EC in accurately identifying and classifying waste materials on a dataset of ~1700 images with 4 categories: (1) recyclable waste (2) other waste (3) harmful waste (4) kitchen waste. The work done last semester was very similar to this approach, where YOLOv8 was used for object detection and the dataset was augmented using DCGAN with the standard BCE objective. 
 - **Link:** [MDPI](https://www.mdpi.com/1424-8220/23/7/3646)
 
+### 6. Data Augmentation in Classification and Segmentation: A Survey and New Strategies
 
-
-
+- **Summary:** This paper gives a summary of existing methods for data augmentation, such as applying filters (gaussian, sobel, etc.) to images as well as tweaking the saturation or contrast of the images. These techniques could prove useful in improving the training of the model, but the paper proposes its own manner of further improving the efficacy of a dataset. This method is dubbed random local rotations, spinning chunks of images in the aim of reducing overfitting. Considering how the aim of this project is to identify the presence of contamination in an image, not its position within the image, this method could help to improve the model's accuracy.
+- **Link:** [MDPI](https://www.mdpi.com/2313-433X/9/2/46/pdf)
 
 
 
