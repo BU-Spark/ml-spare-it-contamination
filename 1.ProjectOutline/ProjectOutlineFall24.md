@@ -17,18 +17,20 @@ Human actions involved in identifying contamination and missed opportunities in 
 This process aligns well with automation through AI, as machine learning models can be trained to replicate these human actions with high efficiency and scalability. AI can continuously analyze large volumes of images, providing real-time insights and recommendations for improving waste sorting practices.
 
 ### B. Problem Statement:
-The project focuses on creating a machine learning model capable of predicting contamination levels and identifying missed opportunities for recycling through the analysis of waste bin images. This involves distinguishing between general waste, recyclables, electronics, and other waste types to improve waste sorting and reduce contamination. The challenge lies in accurately classifying images into categories of 'Contaminated' or 'Missed Opportunity' based on the presence of specific objects and materials that should have been recycled or disposed of differently. This can be formulated as a machine learning problem in different ways, but based on the previous semesters’ work, it is being treated as an object detection problem which involves both localization and classification. 
+The project focuses on creating a machine learning model capable of predicting contamination levels and identifying missed opportunities for recycling through the analysis of waste bin images. This involves distinguishing between general waste, recyclables, electronics, and other waste types to improve waste sorting and reduce contamination. The challenge lies in accurately classifying images into categories of 'Contaminated' or 'Missed Opportunity' based on the presence of specific objects and materials that should have been recycled or disposed of differently. This can be formulated as a machine learning problem in different ways, but based on the previous semesters’ work, it is being treated as an object detection/segmentation problem which involves both localization and classification. 
 
 
 ### C. Checklist for project completion
 
-- [x]  Label Data Optimization and External Dataset Analysis:  Refine labeled data by splitting complex classes and find external datasets and analyze them for better classification.
+- [x]  Label Data Optimization and External Dataset Analysis:  Refine labeled data by splitting complex classes and/or grouping specific classes into more general classes. Integrate external datasets to improve performance on underrepresented classes.
  
 - [x] Data Pipeline Enhancement: Create a scalable and optimized live data pipeline to incorporate external datasets and live data.
 
-- [x] AI Image Generation Exploration: Implement advanced image AI models to generate high-quality synthetic images for testing and for easier classification of the real images (Flux 1, SAM)
+- [x] Copy-Paste Augmentation: Implement copy and paste augmentation and/or other preprocessing techniques to enhance the diversity and quality of the dataset for training. 
 
-- [x] ML Pipeline Enhancements: Research and use open-source tools to improve precision and mAP values of the existing object detection model, focusing on the accuracy of classification.
+- [x] Post-Processing Enhancements: Explore post-processing methods to determine specific characteristics of each detected item and to distingush between items within a general class. An example of this would be identifying black plastic after the general plastic class has been detected. 
+
+- [x] ML Pipeline Enhancements: Research and use open-source tools to improve precision and mAP values of the existing segmentation model, focusing on the accuracy of classification.
 
 - [x] Front-End Enhancement: Host and update the front-end platform to both be more user-friendly and reflect the improved data labeling and AI image generation features. 
 
