@@ -61,7 +61,7 @@ Spare-it focuses on leveraging technology to optimize waste management practices
 
 #### YOLOv8
 
-- **Usage:** YOLOv8 can be applied in a variety of scenarios that require real-time object detection.
+- **Usage:** YOLOv8 can be applied in a variety of scenarios that require real-time object detection and/or segmentation.
 - **Links:** 
   - [Ultralytics GitHub](https://github.com/ultralytics/ultralytics)
 

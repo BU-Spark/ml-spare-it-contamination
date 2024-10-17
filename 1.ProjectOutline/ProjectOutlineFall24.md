@@ -22,11 +22,13 @@ The project focuses on creating a machine learning model capable of predicting c
 
 ### C. Checklist for project completion
 
-- [x]  Label Data Optimization and External Dataset Analysis:  Refine labeled data by splitting complex classes and find external datasets and analyze them for better classification.
+- [x]  Label Data Optimization and External Dataset Analysis:  Refine labeled data by splitting complex classes and/or grouping specific classes into more general classes. Integrate external datasets to improve performance on underrepresented classes.
  
 - [x] Data Pipeline Enhancement: Create a scalable and optimized live data pipeline to incorporate external datasets and live data.
 
-- [x] AI Image Generation Exploration: Implement advanced image AI models to generate high-quality synthetic images for testing and for easier classification of the real images (Flux 1, SAM)
+- [x] Copy-Paste Augmentation: Implement copy and paste augmentation and/or other preprocessing techniques to enhance the diversity and quality of the dataset for training. 
+
+- [x] Post-Processing Enhancements: Explore post-processing methods to determine specific characteristics of each detected item and to distingush between items within a general class. An example of this would be identifying black plastic after the general plastic class has been detected. 
 
 - [x] ML Pipeline Enhancements: Research and use open-source tools to improve precision and mAP values of the existing segmentation model, focusing on the accuracy of classification.
 
