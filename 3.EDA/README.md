@@ -5,11 +5,11 @@ We have provided several Jupyter Notebook for our Exploratory Data Analysis. The
 
 ## File directory
 
+- **`External dataset integration(TACO)`**: This directory contains code to transform TACO dataset annotations to the format which Spare-it uses and includes sample annotations.
+
 - **`images_and_labels.ipynb`**: This file contains an analysis of the images and labels in the dataset, including details about class imbalance and other potential issues. 
 
-- **`blah`**: This file contains...
-
-- **`foo`**: This file contains...
+- **`Performance vs Sample Counts`**: This directory contains graphs of the previous segmentation model performance vs # of trainig examples by class. 
 
 ## Extra Setup
 
