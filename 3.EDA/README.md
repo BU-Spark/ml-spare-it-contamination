@@ -13,7 +13,7 @@ We have provided several Jupyter Notebooks for our Exploratory Data Analysis. Th
 
 ## Extra Setup
 
-This notebook is run with the Spare-it dataset on SCC, so the file paths are specific to the SCC file system. To use the notebook, ensure that you set the appropriate paths to the dataset containing all your images and labels data. You will also need to install the following packages: 
+The `images_and_labels.ipynb` notebook is run with the Spare-it dataset on SCC, so the file paths are specific to the SCC file system. To use the notebook, ensure that you set the appropriate paths to the dataset containing all your images and labels data. You will also need to install the following packages: 
 
 ```
 pip install cleanvision
