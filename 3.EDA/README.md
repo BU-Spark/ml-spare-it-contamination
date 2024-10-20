@@ -1,6 +1,6 @@
 # Spare-it Exploratory Data Analysis (EDA)
 
-We have provided several Jupyter Notebook for our Exploratory Data Analysis. The file directory and any other necessary setup details are explained below. 
+We have provided several Jupyter Notebooks for our Exploratory Data Analysis. The file directory and any other necessary setup details are explained below. 
 
 
 ## File directory
@@ -9,7 +9,7 @@ We have provided several Jupyter Notebook for our Exploratory Data Analysis. The
 
 - **`images_and_labels.ipynb`**: This file contains an analysis of the images and labels in the dataset, including details about class imbalance and other potential issues. 
 
-- **`Performance vs Sample Counts`**: This directory contains graphs of the previous segmentation model performance vs # of trainig examples by class. 
+- **`Performance vs Sample Counts`**: This directory contains graphs of the previous segmentation model performance vs # of training examples by class. 
 
 ## Extra Setup
 
