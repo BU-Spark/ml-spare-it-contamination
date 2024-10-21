@@ -9,7 +9,9 @@ We have provided several Jupyter Notebooks for our Exploratory Data Analysis. Th
 
 - **`images_and_labels.ipynb`**: This file contains an analysis of the images and labels in the dataset, including details about class imbalance and other potential issues. 
 
-- **`Performance vs Sample Counts`**: This directory contains graphs of the previous segmentation model performance vs # of training examples by class. 
+- **`Performance vs Sample Counts`**: This directory contains graphs of the previous segmentation model performance vs # of training examples by class.
+
+- **`Image Stitching`**: This directory contains a demonstration of data augmentation via combining segments of different images within the dataset. 
 
 ## Extra Setup
 
