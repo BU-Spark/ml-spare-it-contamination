@@ -7,11 +7,11 @@ We have provided several Jupyter Notebooks for our Exploratory Data Analysis. Th
 
 - **`External dataset integration(TACO)`**: This directory contains code to transform TACO dataset annotations to the format which Spare-it uses and includes sample annotations.
 
-- **`Image Stitching`**: This directory contains a demonstration of data augmentation via combining segments of different images within the Spare-it dataset. 
-
 - **`Performance vs Sample Counts`**: This directory contains graphs of the previous segmentation model performance vs # of training examples by class.
 
 - **`gini.ipynb`**: This notebook contains functions to transform the GINI dataset annotations to the format which Spare-it uses.
+
+- **`Image Stiching.ipynb`**: This notebook contains a demonstration of data augmentation via combining segments of different images within the Spare-it dataset. 
 
 - **`images_and_labels.ipynb`**: This notebook contains an analysis of the images and labels in the dataset, including details about class imbalance and other potential issues. 
 
