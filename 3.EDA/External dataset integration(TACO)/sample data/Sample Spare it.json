@@ -1,0 +1,644 @@
+{
+    "info": {
+        "description": "",
+        "url": "",
+        "version": "",
+        "year": 2023,
+        "contributor": "",
+        "date_created": "2024-01-19 19:55:25.222980"
+    },
+    "licenses": [
+        {
+            "url": "",
+            "id": 0,
+            "name": ""
+        }
+    ],
+    "images": [
+        {
+            "license": 0,
+            "url": "",
+            "file_name": "InitialExport/Batch14 (from 2023-09-15 to 2023-10-03)/images/BeverageCartons_0d423848-9ca3-48de-9923-dabd8735c223_a86cd805-72cc-46d1-ac1c-348d0d400aae_f87f5cd9-fb56-47fe-be95-7bce8525f3c6.jpeg",
+            "height": 1920,
+            "width": 1440,
+            "date_captured": "",
+            "id": 0
+        }
+    ],
+    "type": "instances",
+    "annotations": [
+        {
+            "id": 0,
+            "image_id": 0,
+            "category_id": 25,
+            "segmentation": [
+                [
+                    801.5143349545037,
+                    1167.4652764635982,
+                    892.4062900261027,
+                    1146.3041949300423,
+                    893.0039411674144,
+                    1149.4494445940038,
+                    792.9155568352687,
+                    1177.038143389478
+                ]
+            ],
+            "area": 509.71,
+            "bbox": [
+                792.9155568352687,
+                1146.3041949300423,
+                100.08838433214567,
+                30.733948459435624
+            ],
+            "iscrowd": 0
+        },
+        {
+            "id": 1,
+            "image_id": 0,
+            "category_id": 16,
+            "segmentation": [
+                [
+                    449.8763177426879,
+                    953.7169469387364,
+                    471.36649491190224,
+                    923.4419734220022,
+                    482.1115834965094,
+                    921.9770553486118,
+                    480.646344144063,
+                    911.7226288348792,
+                    498.22921637342023,
+                    858.008966143899,
+                    516.703199640778,
+                    812.9004530596071,
+                    538.9432429793077,
+                    771.7601549988073,
+                    535.4696631155579,
+                    765.248620833831,
+                    547.6271926386825,
+                    750.4891433932181,
+                    607.9865578988504,
+                    709.4866925327751,
+                    619.7098899390063,
+                    714.2618175870911,
+                    654.879886059474,
+                    733.3623178043548,
+                    754.7453071422833,
+                    773.7338296272076,
+                    811.4630691768253,
+                    797.5447516815,
+                    840.7489628237581,
+                    812.7944767901023,
+                    904.5067937842679,
+                    829.2641799073929,
+                    987.4834924505774,
+                    856.408690600705,
+                    1056.3484166472065,
+                    878.3937839469626,
+                    1109.2422723129698,
+                    893.2164546680309,
+                    1121.855387565555,
+                    896.442358056389,
+                    1131.241891939572,
+                    907.5863879434446,
+                    1123.6153571356833,
+                    914.9179865533496,
+                    1074.144352134685,
+                    969.5589733429572,
+                    1027.680338024941,
+                    999.9901365992648,
+                    986.1588761080361,
+                    1031.8963288185516,
+                    958.7066698819833,
+                    1050.0794276101883,
+                    934.3612254893435,
+                    1069.0890857915178,
+                    917.2438247184607,
+                    1099.9771324715334,
+                    845.0167434169305,
+                    1076.1849884071971,
+                    744.0782825197189,
+                    1045.1391069425395,
+                    562.8065011323554,
+                    987.817754473617,
+                    484.874685781668,
+                    963.3070191521803
+                ]
+            ],
+            "area": 140144.06,
+            "bbox": [
+                449.8763177426879,
+                709.4866925327751,
+                681.3655741968842,
+                390.4904399387583
+            ],
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "",
+            "id": 1,
+            "name": "Paper Cup"
+        },
+        {
+            "supercategory": "",
+            "id": 2,
+            "name": "Snack or Candy Bag or Wrapper "
+        },
+        {
+            "supercategory": "",
+            "id": 4,
+            "name": "Wipe"
+        },
+        {
+            "supercategory": "",
+            "id": 5,
+            "name": "Wax Paper"
+        },
+        {
+            "supercategory": "",
+            "id": 6,
+            "name": "Latex Gloves"
+        },
+        {
+            "supercategory": "",
+            "id": 7,
+            "name": "Juice or Other Pouch"
+        },
+        {
+            "supercategory": "",
+            "id": 8,
+            "name": "Diaper"
+        },
+        {
+            "supercategory": "",
+            "id": 9,
+            "name": "Padded Envelope (mixed materials)"
+        },
+        {
+            "supercategory": "",
+            "id": 10,
+            "name": "Blister Pack"
+        },
+        {
+            "supercategory": "",
+            "id": 11,
+            "name": "Pens and Pencils"
+        },
+        {
+            "supercategory": "",
+            "id": 14,
+            "name": "Miscellaneous Office Supplies"
+        },
+        {
+            "supercategory": "",
+            "id": 15,
+            "name": "Facemask and Other PPE"
+        },
+        {
+            "supercategory": "",
+            "id": 16,
+            "name": "Shelf Stable Carton"
+        },
+        {
+            "supercategory": "",
+            "id": 17,
+            "name": "Soiled Plastic"
+        },
+        {
+            "supercategory": "",
+            "id": 18,
+            "name": "Soiled Metal"
+        },
+        {
+            "supercategory": "",
+            "id": 19,
+            "name": "Soiled Glass"
+        },
+        {
+            "supercategory": "",
+            "id": 115,
+            "name": "Ceramics"
+        },
+        {
+            "supercategory": "",
+            "id": 114,
+            "name": "Unclassifiable"
+        },
+        {
+            "supercategory": "",
+            "id": 116,
+            "name": "Filled Bag"
+        },
+        {
+            "supercategory": "",
+            "id": 117,
+            "name": "Coffee Pod"
+        },
+        {
+            "supercategory": "",
+            "id": 122,
+            "name": "Other Trash"
+        },
+        {
+            "supercategory": "",
+            "id": 123,
+            "name": "Flexible container lid / seal"
+        },
+        {
+            "supercategory": "",
+            "id": 124,
+            "name": "Snack Food Canister"
+        },
+        {
+            "supercategory": "",
+            "id": 127,
+            "name": "Hard Cover Books"
+        },
+        {
+            "supercategory": "",
+            "id": 20,
+            "name": "Compostable Fiber Ware"
+        },
+        {
+            "supercategory": "",
+            "id": 21,
+            "name": "Compostable Cutlery"
+        },
+        {
+            "supercategory": "",
+            "id": 22,
+            "name": "Compostable Plastic Cups"
+        },
+        {
+            "supercategory": "",
+            "id": 23,
+            "name": "Compostable Paper Cups"
+        },
+        {
+            "supercategory": "",
+            "id": 24,
+            "name": "Paper Towel/Napkins/Tissue"
+        },
+        {
+            "supercategory": "",
+            "id": 25,
+            "name": "Wooden Coffee Stirrer or Chopstick"
+        },
+        {
+            "supercategory": "",
+            "id": 26,
+            "name": "Soiled Cardboard Box"
+        },
+        {
+            "supercategory": "",
+            "id": 27,
+            "name": "Compostable Plastic Lid"
+        },
+        {
+            "supercategory": "",
+            "id": 30,
+            "name": "Food Soiled Paper"
+        },
+        {
+            "supercategory": "",
+            "id": 125,
+            "name": "Other compostable material"
+        },
+        {
+            "supercategory": "",
+            "id": 126,
+            "name": "Sandwich paper wrapper"
+        },
+        {
+            "supercategory": "",
+            "id": 36,
+            "name": "Plastic strapping"
+        },
+        {
+            "supercategory": "",
+            "id": 38,
+            "name": "Batteries"
+        },
+        {
+            "supercategory": "",
+            "id": 40,
+            "name": "Cables"
+        },
+        {
+            "supercategory": "",
+            "id": 43,
+            "name": "Computers"
+        },
+        {
+            "supercategory": "",
+            "id": 44,
+            "name": "Monitors"
+        },
+        {
+            "supercategory": "",
+            "id": 45,
+            "name": "Toner and Ink Cartridges"
+        },
+        {
+            "supercategory": "",
+            "id": 46,
+            "name": "Miscellaneous Electronics "
+        },
+        {
+            "supercategory": "",
+            "id": 47,
+            "name": "LED Lightbulb"
+        },
+        {
+            "supercategory": "",
+            "id": 48,
+            "name": "Meat and Fish"
+        },
+        {
+            "supercategory": "",
+            "id": 49,
+            "name": "Bones and Shells"
+        },
+        {
+            "supercategory": "",
+            "id": 50,
+            "name": "Cheese and Other Fats"
+        },
+        {
+            "supercategory": "",
+            "id": 51,
+            "name": "Fruits And Veggies"
+        },
+        {
+            "supercategory": "",
+            "id": 52,
+            "name": "Other Food or Mixed Food"
+        },
+        {
+            "supercategory": "",
+            "id": 53,
+            "name": "Breads"
+        },
+        {
+            "supercategory": "",
+            "id": 54,
+            "name": "Grains"
+        },
+        {
+            "supercategory": "",
+            "id": 55,
+            "name": "Tea Bags"
+        },
+        {
+            "supercategory": "",
+            "id": 56,
+            "name": "Coffee Grounds"
+        },
+        {
+            "supercategory": "",
+            "id": 57,
+            "name": "Egg Shell"
+        },
+        {
+            "supercategory": "",
+            "id": 58,
+            "name": "Glass Bottles"
+        },
+        {
+            "supercategory": "",
+            "id": 59,
+            "name": "Glass Jars"
+        },
+        {
+            "supercategory": "",
+            "id": 60,
+            "name": "Broken Glass"
+        },
+        {
+            "supercategory": "",
+            "id": 120,
+            "name": "Other Clean Glass"
+        },
+        {
+            "supercategory": "",
+            "id": 121,
+            "name": "Drinking glass or glass ovenware"
+        },
+        {
+            "supercategory": "",
+            "id": 63,
+            "name": "Metal Can"
+        },
+        {
+            "supercategory": "",
+            "id": 65,
+            "name": "Aluminum Foil"
+        },
+        {
+            "supercategory": "",
+            "id": 66,
+            "name": "Aluminum Catering Tray"
+        },
+        {
+            "supercategory": "",
+            "id": 67,
+            "name": "Other Clean Metal"
+        },
+        {
+            "supercategory": "",
+            "id": 68,
+            "name": "Aerosol Can"
+        },
+        {
+            "supercategory": "",
+            "id": 69,
+            "name": "Metallic Bottle Cap or Lid"
+        },
+        {
+            "supercategory": "",
+            "id": 70,
+            "name": "Metal Strapping"
+        },
+        {
+            "supercategory": "",
+            "id": 72,
+            "name": "Liquids"
+        },
+        {
+            "supercategory": "",
+            "id": 73,
+            "name": "Leaves, Flowers, Grass Clippings"
+        },
+        {
+            "supercategory": "",
+            "id": 76,
+            "name": "Office Paper"
+        },
+        {
+            "supercategory": "",
+            "id": 77,
+            "name": "Shredded Paper"
+        },
+        {
+            "supercategory": "",
+            "id": 78,
+            "name": "Clean Cardboard"
+        },
+        {
+            "supercategory": "",
+            "id": 79,
+            "name": "Refrigerated Beverage Carton"
+        },
+        {
+            "supercategory": "",
+            "id": 80,
+            "name": "Magazines Newspaper"
+        },
+        {
+            "supercategory": "",
+            "id": 82,
+            "name": "Receipts and Thermal Paper"
+        },
+        {
+            "supercategory": "",
+            "id": 83,
+            "name": "Empty Paper Bag"
+        },
+        {
+            "supercategory": "",
+            "id": 84,
+            "name": "Cardboard Coffee Cup Sleeve"
+        },
+        {
+            "supercategory": "",
+            "id": 85,
+            "name": "Clean Paper Plate"
+        },
+        {
+            "supercategory": "",
+            "id": 86,
+            "name": "Colored Memo Note"
+        },
+        {
+            "supercategory": "",
+            "id": 87,
+            "name": "Office Folder"
+        },
+        {
+            "supercategory": "",
+            "id": 88,
+            "name": "Paper Roll"
+        },
+        {
+            "supercategory": "",
+            "id": 118,
+            "name": "Wrapping Paper"
+        },
+        {
+            "supercategory": "",
+            "id": 119,
+            "name": "Other Clean Paper"
+        },
+        {
+            "supercategory": "",
+            "id": 89,
+            "name": "Plastic Drink Bottle"
+        },
+        {
+            "supercategory": "",
+            "id": 91,
+            "name": "Plastic Milk Jug or Personal Care Bottle"
+        },
+        {
+            "supercategory": "",
+            "id": 92,
+            "name": "Empty Plastic Bag"
+        },
+        {
+            "supercategory": "",
+            "id": 93,
+            "name": "Yogurt Tub or Container"
+        },
+        {
+            "supercategory": "",
+            "id": 94,
+            "name": "Expanded Polystyrene (styrofoam)"
+        },
+        {
+            "supercategory": "",
+            "id": 95,
+            "name": "Other Clean Plastics (rigid)"
+        },
+        {
+            "supercategory": "",
+            "id": 96,
+            "name": "Straws"
+        },
+        {
+            "supercategory": "",
+            "id": 97,
+            "name": "Clear Clamshell Container"
+        },
+        {
+            "supercategory": "",
+            "id": 98,
+            "name": "Plastic Cutlery"
+        },
+        {
+            "supercategory": "",
+            "id": 99,
+            "name": "Plastic Lid except black"
+        },
+        {
+            "supercategory": "",
+            "id": 100,
+            "name": "Plastic Coffee Stirrer"
+        },
+        {
+            "supercategory": "",
+            "id": 101,
+            "name": "Clear Plastic Cup"
+        },
+        {
+            "supercategory": "",
+            "id": 102,
+            "name": "Colored Plastic Cup"
+        },
+        {
+            "supercategory": "",
+            "id": 103,
+            "name": "Black Plastic"
+        },
+        {
+            "supercategory": "",
+            "id": 106,
+            "name": "Plastic Wrap"
+        },
+        {
+            "supercategory": "",
+            "id": 107,
+            "name": "Bubble Wrap"
+        },
+        {
+            "supercategory": "",
+            "id": 109,
+            "name": "Incandescent Lightbulbs"
+        },
+        {
+            "supercategory": "",
+            "id": 110,
+            "name": "CFL Lightbulbs"
+        },
+        {
+            "supercategory": "",
+            "id": 112,
+            "name": "Textiles and Clothes"
+        },
+        {
+            "supercategory": "",
+            "id": 124,
+            "name": "Food canister"
+        }
+    ]
+}
