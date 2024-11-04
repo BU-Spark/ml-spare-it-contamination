@@ -6,6 +6,7 @@ We have provided several Jupyter Notebooks for our POC. The file directory and a
 
 - **`best.pt`**: This file contains...
 - **`spare-it-segmentation-model.ipynb`**: This notebook contains...
+- - **`Copy Paste Generator.ipynb`**: This notebook contains the code used to generate the copy paste dataset.
 
 ## Extra Setup
 
