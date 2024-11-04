@@ -4,9 +4,11 @@ We have provided several Jupyter Notebooks for our POC. The file directory and a
 
 ## File directory
 
-- **`best.pt`**: This file can be used to download our best YOLO model. 
-- **`spare-it-segmentation-model.ipynb`**: This notebook contains the code to convert the Spare-it dataset, augmented datasets, and external datasets to YOLOv8 format, train the YOLOv8 model, and analyze the results. 
+- **`Image Generation`**: This directory contains code to experiment with fine-tuning Stable Diffusion on specific categories from the Spare-it dataset. 
+- **`TACO`**: This directory contains code to download and transform the TACO dataset into Spare-it format so that it can be integreated easily into the training pipeline.
+- **`best.pt`**: This file can be used to download our best performing YOLO model. 
 - **`Copy Paste Generator.ipynb`**: This notebook contains the code used to generate the copy paste dataset.
+- **`spare-it-segmentation-model.ipynb`**: This notebook contains the code to convert the Spare-it dataset, augmented datasets, and external datasets to YOLOv8 format, train the YOLOv8 model, and analyze the results. 
 
 ## Extra Setup
 

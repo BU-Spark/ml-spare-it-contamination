@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[12]:
-
-
 import json
 import requests
 import os
@@ -38,17 +35,4 @@ def download_images_from_json(json_path, save_folder):
 json_path = 'taco_annotations.json'  
 save_folder = 'images'   
 
-
-
-
-# In[10]:
-
-
 download_images_from_json(json_path, save_folder)
-
-
-# In[ ]:
-
-
-
-
