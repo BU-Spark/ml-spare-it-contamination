@@ -17,4 +17,14 @@ pip install -r requirements.txt
 ```
 
 ## Overall Results
+
+We trained the YOLOv8 model with several different training configurations:
+1. Original Spare-it Dataset with default augmentation 
+2. Original Spare-it Dataset with YOLO copy-paste augmentation (flip and mixup)
+3. Original Spare-it Dataset + TACO with default augmentation
+4. Original Spare-it Dataset + our copy-paste dataset with default augmentation
+4. Original Spare-it Dataset + our copy-paste dataset + TACO dataset with default augmentation
+
+We found that method 4. worked the best. Compared to the baseline model (method 1.) which achieves 0.598 mAP@50, our best model achieved 0.685 mAP@50. The results for this model are shown below. 
+
 ![results (1)](https://github.com/user-attachments/assets/e44aba02-55c2-4571-8969-0b2c13317a34)
