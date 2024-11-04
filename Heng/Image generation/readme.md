@@ -20,3 +20,4 @@ sample of enerated images:
 This exercise also revealed a potential issue regarding how the spare-it is labeled: As shown in the [sample of teabags in spare-it dataset], some of the images are mere paper tags. This might confuse the segmentation/identification model just like how it sometimes confused the diffusion model: 
 
 ![generated_image_0](https://github.com/user-attachments/assets/192b9c16-4738-44b2-9d1f-94e85d3ce9a8)
+(a generated image that resembles a paper tag)
