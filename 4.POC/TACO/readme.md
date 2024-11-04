@@ -7,7 +7,7 @@ This directory contains code that can be used to load and transform the TACO ann
 ### File directory
 
 - **`Integration_of_External_Datasets_Report.pdf`**: This pdf file contains a report of our analysis of publicly available external datasets and justifies our decision for ultimately integrating TACO. 
-- **`TACO image downloader.py`**: This notebook contains the code to download the TACO images from their urls. 
+- **`TACO image downloader.py`**: This script contains the code to download the TACO images from their urls. 
 - **`Taco_Dataset_Transformation.ipynb`**: This notebook contains the code used to generate the transformed TACO json annotations. 
 
 ### Class Mapping:
