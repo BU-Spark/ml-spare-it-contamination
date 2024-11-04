@@ -1,4 +1,4 @@
-Per client request, We have tried to generate images as an effort to enhance the underrepresented calsees in their dataset. We tried to train a Gan and a diffusor, which both faield to convered, likely due to the lack of training data. We then tried to fine-tune a pretrained stable diffusion model on spare-it dataset and make it generate image for a specific class(teabags), which showed some success.
+Per client request, We have tried to generate images as an effort to enhance the underrepresented calsees in their dataset. We tried to train a Gan and a diffusor, which both faield to convered, likely due to the lack of training data. We then tried to fine-tune a pretrained stable diffusion model on spare-it dataset and make it generate image for a specific class - teabags (As the experience from our predecessor shows generating images for the whole trash bin isn't very practical), which showed some success.
 
 sample of teabags in spare-it dataset:
 ![image](https://github.com/user-attachments/assets/00011948-3421-43a0-bacd-e1fad5ffce5d)
