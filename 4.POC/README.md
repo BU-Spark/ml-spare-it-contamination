@@ -1,6 +1,6 @@
 # Spare-it Proof-of-Concept (POC)
 
-We have provided several Jupyter Notebooks for our POC. The file directory and any other necessary setup details are explained below. 
+We have provided several Jupyter Notebooks and python scripts for our POC. The file directory and any other necessary setup details are explained below. 
 
 ## File directory
 
