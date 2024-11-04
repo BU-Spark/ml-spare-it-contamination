@@ -90,5 +90,6 @@ ultralytics==8.3.27
 ultralytics-thop==2.0.10
 urllib3==2.2.3
 wcwidth==0.2.13
+webcolors==24.8.0
 widgetsnbextension==4.0.13
 xmljson==0.2.1
