@@ -2,12 +2,12 @@
 
 ### Overview
 
-As per the tasks in the project description, we have tried to generate images as an effort to enhance the underrepresented calsees in their dataset. We tried to train both a  GAN and a diffusion model, but results were sub-optimal likely due to the lack of training data. We then tried to fine-tune a pretrained stable diffusion model on the Spare-it dataset and generate images for a specific class (teabags), which yielded better results as shown below. 
+As per the tasks in the project description, we have tried to generate images as an effort to enhance the underrepresented classes in the Spare-it dataset. We tried to train both a  GAN and a diffusion model, but results were sub-optimal likely due to the lack of training data. We then tried to fine-tune a pretrained stable diffusion model on the Spare-it dataset and generate images for a specific class (teabags), which yielded better results as shown below. 
 
 ### File directory
 
 - **`diffusion_tuning.ipynb`**: This notebook contains the code that we used to fine-tune stable diffusion. 
-- **`Image_Cropper.ipynb`**: This notebook contains code to extract images for a give label from the Spare-it dataset using the segmentation masks. 
+- **`Image_Cropper.ipynb`**: This notebook contains code to extract images for a given label from the Spare-it dataset using the segmentation masks. 
 
 ### Results
 
