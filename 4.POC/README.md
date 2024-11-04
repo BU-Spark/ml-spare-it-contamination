@@ -10,7 +10,7 @@ We have provided several Jupyter Notebooks for our POC. The file directory and a
 
 ## Extra Setup
 
-Several notebooks are run with the Spare-it dataset on SCC, so the file paths are specific to the SCC file system. To use the notebooks, ensure that you set the appropriate paths to the dataset containing all your images and labels data. There are more instructions in the notebooks. You will also need to set up your python environment from the `requirements.txt` file. Note that the `Image Generation` directory has a separate `requirements.txt` file.
+Several notebooks are run with the Spare-it dataset on SCC, so the file paths are specific to the SCC file system. To use the notebooks, ensure that you set the appropriate paths to the dataset containing all your images and labels data. There are more instructions in the notebooks. You will also need to set up your python environment from the `requirements.txt` file. Note that there are different `requirements.txt` files for each folder.
 
 ```
 pip install -r requirements.txt
