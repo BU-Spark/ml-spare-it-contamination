@@ -18,4 +18,3 @@ pip install -r requirements.txt
 
 ## Results
 ![results (1)](https://github.com/user-attachments/assets/e44aba02-55c2-4571-8969-0b2c13317a34)
-![MaskPR_curve](https://github.com/user-attachments/assets/ed433a99-544a-46ca-a799-27fbdf41e9e9)
