@@ -14,6 +14,8 @@
 
 - **`/3.EDA`**: This directory contains our exploratory data analysis on the labels and images provided by Spare-it as well as the performance of the previously developed segmentation model.
 
+- **`/4.POC`**: This directory contains our proof-of-concept, where we've trained the YOLOv8 model on the Spare-it dataset with external datasets (TACO) and different augmentations. It also contains experimental work to use Stable Diffusion for generating synthetic images of categories in the Spare-it dataset and a script for postprocessing in case we decide to merge classes. 
+
 - **`/SPRING 2024 ARCHIVE`**: This directory contains the work done on this project in the Spring 2024 semester. 
 
 ## Overview
