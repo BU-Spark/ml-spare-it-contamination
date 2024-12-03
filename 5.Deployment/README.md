@@ -1,10 +1,10 @@
 # Spare-it Segmentation Model Deployment
 
-For our deployment phase, we developed a refined version of the copy-paste augmentation which improves the class imbalance and integrates objects from TACO and then retrained YOLOv8 with the new copy-paste data. We have also deployed our best segmentation model to Hugging Face.
+For our deployment phase, we developed a refined version of the copy-paste augmentation which improves the class imbalance and integrates objects from TACO and then retrained YOLOv8 with the new copy-paste dataset. We have also deployed our best segmentation model to Hugging Face.
 
 ## File directory
 
-- **`HuggingFace Demo`**: This directory contains the source code for our demo hosted on Hugging Face alsong with instructions on how to run the demo locally. 
+- **`Hugging Face Demo`**: This directory contains the source code for our demo hosted on Hugging Face alsong with instructions on how to run the demo locally. 
 - **`deploy_best.pt`**: This file can be used to download our best performing YOLO model from the deployment phase. 
 - **`Copy Paste Generator.ipynb`**: This notebook contains the code used to generate the improved version of the copy paste dataset.
 
@@ -28,7 +28,7 @@ We then retrained YOLOv8 with Original Spare-it Dataset + Improved Copy-Paste Da
 
 <img width="356" alt="Screenshot 2024-12-03 at 9 16 26 AM" src="https://github.com/user-attachments/assets/1cf23ceb-6c1e-4dca-99f6-cbb98b39ae65">
 
-This model achieves 0.598 mAP@50, although we are careful not to directly compare it to the models trained during the POC phase because we also used an improved version of the validation dataset which is outlined in `4.POC/spare-it-segmentation-model.ipynb`.
+This model achieves 0.598 mAP@50, although we are careful not to directly compare it to the models trained during the POC phase because we also used an improved version of the validation dataset for this model the details of which are outlined in `4.POC/spare-it-segmentation-model.ipynb`.
 
 
 
