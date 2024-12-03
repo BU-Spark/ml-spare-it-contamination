@@ -4,7 +4,7 @@ For our deployment phase, we developed a refined version of the copy-paste augme
 
 ## File directory
 
-- **`Hugging Face Demo`**: This directory contains the source code for our demo hosted on Hugging Face alsong with instructions on how to run the demo locally. 
+- **`Hugging Face Demo`**: This directory contains the source code for our demo hosted on Hugging Face alsong with instructions on how to run the demo locally. The demo is also hosted on Hugging Face and the link can be found [here](https://huggingface.co/spaces/hengc/Spare-it_fall24).
 - **`deploy_best.pt`**: This file can be used to download our best performing YOLO model from the deployment phase. 
 - **`Copy Paste Generator.ipynb`**: This notebook contains the code used to generate the improved version of the copy paste dataset.
 
