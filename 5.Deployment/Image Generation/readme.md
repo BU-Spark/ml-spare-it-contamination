@@ -11,15 +11,15 @@ As per the tasks in the project description, we have tried to generate images as
 
 #### Sample of generated images:
 
-![generated_image_0 (3)](https://github.com/user-attachments/assets/40822dce-1e68-4f62-8a59-c46ba0c455d8)
+
 ![generated_image_0 (4)](https://github.com/user-attachments/assets/14699f2e-ee56-443f-a85c-6510f2577a79)
-![generated_image_2](https://github.com/user-attachments/assets/47227a8f-f454-414d-a1d7-2bd821b7293b)
 ![generated_image_0](https://github.com/user-attachments/assets/faaa6c58-bb14-4100-bfa6-a885d6b0aaba)
-![generated_image_4 (2)](https://github.com/user-attachments/assets/b112aba5-0825-4e45-8bca-e1f082690d83)
+![generated_6](https://github.com/user-attachments/assets/2f26b2d0-9409-46d9-8593-cbefce666675)
 ![generated_6_0](https://github.com/user-attachments/assets/47055a34-4f59-4405-bcd3-0d22ff7973c8)
 ![generated_6_1](https://github.com/user-attachments/assets/5da5de06-1ea9-4f50-a935-ea249b38968c)
 ![generated_77_0](https://github.com/user-attachments/assets/f31b4955-cc21-43f3-a06e-4912d3c84e32)
 ![generated_77_1](https://github.com/user-attachments/assets/d7a03ec4-d61f-4ad1-a820-e1a4d4c620bd)
+![generated_77](https://github.com/user-attachments/assets/50cf239e-c96c-44a5-a421-a49dc705fe8c)
 
 
 
