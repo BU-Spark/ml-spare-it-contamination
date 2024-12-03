@@ -6,14 +6,8 @@ As per the tasks in the project description, we have tried to generate images as
 
 ### File directory
 
-- **`diffusion_tuning.ipynb`**: This notebook contains the code that we used to fine-tune stable diffusion. 
-- **`Image_Cropper.ipynb`**: This notebook contains code to extract images for a given label from the Spare-it dataset using the segmentation masks. 
-
-### Results
-
-#### Sample of teabags in Spare-it dataset:
-
-![image](https://github.com/user-attachments/assets/00011948-3421-43a0-bacd-e1fad5ffce5d)
+- **`Image_Extractor.ipynb`**: This notebook contains code to extract images for given labels from the Spare-it dataset using the segmentation masks. Currently, the notebook only saves the trained Unet. It is recommended to save the entire model instead if your hardware capacity allows that.
+- **`Training_pipeline.ipynb`**: This notebook contains the code that we used to fine-tune stable diffusion. 
 
 #### Sample of generated images:
 
@@ -22,6 +16,12 @@ As per the tasks in the project description, we have tried to generate images as
 ![generated_image_2](https://github.com/user-attachments/assets/47227a8f-f454-414d-a1d7-2bd821b7293b)
 ![generated_image_0](https://github.com/user-attachments/assets/faaa6c58-bb14-4100-bfa6-a885d6b0aaba)
 ![generated_image_4 (2)](https://github.com/user-attachments/assets/b112aba5-0825-4e45-8bca-e1f082690d83)
+![generated_6_0](https://github.com/user-attachments/assets/47055a34-4f59-4405-bcd3-0d22ff7973c8)
+![generated_6_1](https://github.com/user-attachments/assets/5da5de06-1ea9-4f50-a935-ea249b38968c)
+![generated_77_0](https://github.com/user-attachments/assets/f31b4955-cc21-43f3-a06e-4912d3c84e32)
+![generated_77_1](https://github.com/user-attachments/assets/d7a03ec4-d61f-4ad1-a820-e1a4d4c620bd)
+
+
 
 This exercise also revealed a potential issue regarding how the Spare-it data is labeled. As shown above, some of the teabags in the Spare-it dataset are just paper tags. This might confuse the segmentation model just like how it sometimes confused the diffusion model. For example, here is a generated image that resembles a paper tag:
 
