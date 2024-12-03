@@ -1,0 +1,8 @@
+gradio
+torch
+transformers
+diffusers
+accelerate
+safetensors
+torchvision
+huggingface_hub
