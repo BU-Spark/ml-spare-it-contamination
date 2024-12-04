@@ -18,14 +18,8 @@ We have provided several Jupyter Notebooks for our Exploratory Data Analysis. Th
 
 ## Extra Setup
 
-Several notebooks are run with the Spare-it dataset on SCC, so the file paths are specific to the SCC file system. To use the notebooks, ensure that you set the appropriate paths to the dataset containing all your images and labels data. You will also need to install the following packages in your python environment: 
+Several notebooks are run with the Spare-it dataset on SCC, so the file paths are specific to the SCC file system. To use the notebooks, ensure that you set the appropriate paths to the dataset containing all your images and labels data. You will also need to set up your python environment from the `requirements.txt` file. 
 
 ```
-pip install cleanvision
-pip install pandas
-pip install numpy 
-pip install matplotlib
-pip install torch 
-pip install pycocotools
+pip install -r requirements.txt
 ```
-

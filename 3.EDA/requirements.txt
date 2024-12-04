@@ -1,0 +1,8 @@
+matplotlib
+cleanvision
+pandas
+numpy
+torch
+pycocotools
+scipy
+requests
