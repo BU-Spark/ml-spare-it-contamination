@@ -14,7 +14,7 @@
 
 - **`/4.POC`**: This directory contains our proof-of-concept, where we've trained the YOLOv8 model on the Spare-it dataset with external datasets (TACO) and different augmentations. It also contains experimental work to use Stable Diffusion for generating synthetic images of categories in the Spare-it dataset and a script for postprocessing in case we decide to merge classes. 
 
-- **`/5.Deployment`**: This directory contains an improved version of the copy-paste augmentation aimed at balancing the class distribution and integrating objects from the TACO dataset. It also contains our best YOLOv8 model from the deployment phase which we deployed to Hugging Face using Streamlit. 
+- **`/5.Deployment`**: This directory contains an improved version of the copy-paste augmentation aimed at balancing the class distribution and integrating objects from the TACO dataset. It also contains our best YOLOv8 model from the deployment phase which we deployed to Hugging Face using Streamlit and a configurable pipeline for fine-tuning stable diffusion for synthetic data generation.
 
 - **`/SPRING 2024 ARCHIVE`**: This directory contains the work done on this project in the Spring 2024 semester. 
 

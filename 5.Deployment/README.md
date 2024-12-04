@@ -29,7 +29,7 @@ We then retrained YOLOv8 with Original Spare-it Dataset + Improved Copy-Paste Da
 
 <img width="356" alt="Screenshot 2024-12-03 at 9 16 26 AM" src="https://github.com/user-attachments/assets/1cf23ceb-6c1e-4dca-99f6-cbb98b39ae65">
 
-This model achieves 0.587 mAP@50, although we are careful not to directly compare it to the models trained during the POC phase because we also used an improved version of the validation dataset for a more robust model evaluation which was not used in the POC phase. The details of this are outlined in `4.POC/spare-it-segmentation-model.ipynb`. Therefore, we also trained the model with just the original Spare-it dataset using the new train-val split and this yielded a baseline performance of 0.539 mAP@50.
+This model achieves 0.587 mAP@50, although we are careful not to directly compare it to the models trained during the POC phase because we also used an improved version of the validation dataset for a more robust model evaluation which was not used in the POC phase - the details of this are outlined in `4.POC/spare-it-segmentation-model.ipynb`. Therefore, we established the baseline performance by retraining the model with just the original Spare-it dataset using the new train-val split and this achieved 0.539 mAP@50.
 
 
 
