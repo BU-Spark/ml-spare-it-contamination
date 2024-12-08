@@ -30,7 +30,9 @@ A link to our Hugging Face Demo can be found here: [DEMO](https://huggingface.co
 
 Using the tools we built, we were able to train a model which achieves 0.587 mAP@50 on the 43 categories that we focused on this semester compared to the baseline model which achieves 0.539 mAP@50. These performance results are summarized below. 
 
+<img width="1309" alt="Screenshot 2024-12-08 at 1 30 01 PM" src="https://github.com/user-attachments/assets/099d67b3-f409-474b-9684-cc7fbef27661">
 
+![Figure_1](https://github.com/user-attachments/assets/e5d15f96-0ab9-4f95-ad8d-6fd23d228f81)
 
 
 
