@@ -28,4 +28,14 @@ A link to our Hugging Face Demo can be found here: [DEMO](https://huggingface.co
 
 ## Results 
 
-To be updated 
+Using the tools we built, we were able to train a model which achieves 0.587 mAP@50 on the 43 categories that we focused on this semester compared to the baseline model which achieves 0.539 mAP@50. These performance results are summarized below. 
+
+
+
+
+
+
+
+## Reproducibility 
+
+We aimed to make our project easily reproducible. Given this, all of the folders containing any sort of code (usually `.ipynb` or `.py` files) have their own `README.md` files which give detailed instructions for setup. The code itself is also thoroughly commented. In terms of dependencies, we have provided several different `requirements.txt` files throughout the codebase. Each of these usually corresponds to the dependencies needed to run a specific tool we have built (e.g. TACO integration, AI Image Generation) or analysis we have done (e.g. EDA). We hope that this will allow others to only install only the dependencies needed for the tools that they wish to use. Also, as a general note, many of the filepaths used in the codebase are specific to the SCC file system, and these will need to be replaced appropriately when reproducing the results. To help with this, we have tried to provide comments everywhere that SCC specific filepaths are used. 
