@@ -24,12 +24,11 @@ st.dataframe(df)
 
 with st.expander("See Example Results"):
     st.write("Here are some example images with detections:")
-    st.image('exampeimg1.jpg')
-    st.image('exampeimg2.png')
-    st.image('exampeimg3.jpg')
-    st.image('exampeimg4.jpg')
-    st.image('exampeimg5_original.jpeg')
-    st.image('exampeimg5.jpg')
+    st.image('example1.jpg')
+    st.image('example2.png')
+    st.image('example3.jpg')
+    st.image('example4.jpg')
+    st.image('example5.jpg')
 
 
 input_method = st.radio("Choose the input method:", ("Upload an Image", "Take a Picture"))
