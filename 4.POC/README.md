@@ -30,4 +30,17 @@ We trained the YOLOv8 model with several different training configurations:
 
 We found that method 4. worked the best. Compared to the baseline model (method 1.) which achieves 0.598 mAP@50, our best model achieved 0.685 mAP@50. The results for this model are shown below. 
 
+#### Results:
 ![results (1)](https://github.com/user-attachments/assets/e44aba02-55c2-4571-8969-0b2c13317a34)
+
+For the fine-grained results by class see the table below. Note that due to the algorithm we used to generate the validation data with the goal of matching the training data distribution, several classes do not appear in the validation data or only appear once and as such have a precision/recall of 0 or 1. In the future, it is worth exploring how to address this issue for a more robust evaluation.  
+
+#### Results by class: 
+<img width="730" alt="Screenshot 2024-11-10 at 7 15 33 PM" src="https://github.com/user-attachments/assets/c156c52b-2f11-4493-bbe3-5ac1f7da2859">
+
+
+
+
+We believe that these improved results can be attributed to the improved class distribution after applying the copy-paste augmentation. For comparison, see the original class distribution in `3.EDA/images_and_labels.ipynb`.
+#### Class distribution with copy-paste:
+![figure](https://github.com/user-attachments/assets/f8430269-eb11-4ace-acf6-5c2a48a0961a)
