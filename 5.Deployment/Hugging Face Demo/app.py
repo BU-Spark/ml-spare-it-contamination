@@ -19,13 +19,13 @@ performance_data = {
     "Mask(mAP50-95)": [0.462, 0.357, 0.411, 0.683, 0.314, 0.453, 0.391, 0.372, 0.367, 0.268, 0.437, 0.737, 0.523, 0.483, 0.437, 0.373, 0.318, 0.428, 0.435, 0.365, 0.385, 0.421, 0.321, 0.358, 0.283, 0.619, 0.351, 0.234, 0.212, 0.189, 0.147, 0.392, 0.318, 0.27, 0.391, 0.492, 0.248, 0.318, 0.587, 0.118],
 }
 
-df = pd.DataFrame(performance_data)
+df = pd.read_csv('performance_table.csv')
 st.dataframe(df)
 
 with st.expander("See Example Results"):
     st.write("Here are some example images with detections:")
     st.image('example1.jpg')
-    st.image('example2.png')
+    st.image('example2.jpg')
     st.image('example3.jpg')
     st.image('example4.jpg')
     st.image('example5.jpg')
