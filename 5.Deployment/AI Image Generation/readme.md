@@ -7,9 +7,11 @@ As per the tasks in the project description, we have tried to generate synthetic
 ### File directory
 
 - **`Image_Extractor.ipynb`**: This notebook contains code to extract images for given labels from the Spare-it dataset using the segmentation masks. 
-- **`Training_pipeline.ipynb`**: This notebook contains the pipeline we built for fine-tuning stable diffusion. Currently, the notebook only saves the fine-tuned Unet and use the base model's encoder for generation. It is recommended to save the entire model instead if your hardware capacity allows that.
+- **`Training_pipeline.ipynb`**: This notebook contains the pipeline we built for fine-tuning stable diffusion.
+- **`Post_processing.ipynb`**: This notebook contains code to remove background of generated images and create mask for it. 
 
 #### Sample of generated images:
+![image](https://github.com/user-attachments/assets/e4e6c679-6803-4e6f-81a5-30959770eb91)
 
 ![generated_image_0 (4)](https://github.com/user-attachments/assets/14699f2e-ee56-443f-a85c-6510f2577a79)
 ![generated_image_0](https://github.com/user-attachments/assets/faaa6c58-bb14-4100-bfa6-a885d6b0aaba)
