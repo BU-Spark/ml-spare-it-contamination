@@ -16,7 +16,11 @@
 
 - **`/5.Deployment`**: This directory contains an improved version of the copy-paste augmentation aimed at balancing the class distribution and integrating objects from the TACO dataset. It also contains our best YOLOv8 model from the deployment phase which we deployed to Hugging Face using Streamlit and a configurable pipeline for fine-tuning stable diffusion for synthetic data generation.
 
-- **`/SPRING 2024 ARCHIVE`**: This directory contains the work done on this project in the Spring 2024 semester. 
+- **`/SPRING 2024 ARCHIVE`**: This directory contains the work done on this project in the Spring 2024 semester.
+
+- **`/dataset-documentation`**: This directory contains documentation about the dataset provided by Spare-it.
+ 
+- **`/documents`**: This directory contains our final class presentation as well as our final poster presentation.
 
 ## Overview
 
@@ -34,10 +38,10 @@ Using the tools we built, we were able to train a model which achieves 0.587 mAP
 
 ![Figure_1](https://github.com/user-attachments/assets/e5d15f96-0ab9-4f95-ad8d-6fd23d228f81)
 
-
-
-
-
 ## Reproducibility 
 
 We aimed to make our project easily reproducible. Given this, all of the folders containing any sort of code (usually `.ipynb` or `.py` files) have their own `README.md` files which give detailed instructions for setup. The code itself is also thoroughly commented. In terms of dependencies, we have provided several different `requirements.txt` files throughout the codebase. Each of these usually corresponds to the dependencies needed to run a specific tool we have built (e.g. TACO integration, AI Image Generation) or analysis we have done (e.g. EDA). We hope that this will allow others to only install only the dependencies needed for the tools that they wish to use. Also, as a general note, many of the filepaths used in the codebase are specific to the SCC file system, and these will need to be replaced appropriately when reproducing the results. To help with this, we have tried to provide comments everywhere that SCC specific filepaths are used. 
+
+## Future Work
+
+We have several recommendations for future work in case there is another student team that works on this project. First, we recommend that the team start by leveraging the AI Image Generation tools that we built to integrate synthetic data into the training pipeline. We were not able to achieve this due to time constraints, but it would be a very interesting first step to try and we have provided most of the code that would be needed to set this up. Second, we recommend the team experiment more with hyperparameter optimization as this was not something we explored in detail but it could yield a marginal performance boost. The team should also note that hyperparameters are not just limited to those provided in the Ultarlytics library for YOLOv8 but also include hyperparameters for tools that we built this semester such as how much copy-paste to apply to balance the class distribution. Finally, we recommend that the team begin to explore how to integrate YOLOv8 with a real-time detection system as this is the ultimate goal of the project. More details for future work are provided in the `documents` folder in our final presentation. 
